@@ -1,0 +1,201 @@
+.App {
+  text-align: center;
+}
+
+.maincontainer{
+  display: grid;
+}
+
+
+.leftC{
+  background-color: rgb(50, 50, 201);
+  display: inline-block;
+}
+
+.rightC{
+  background-color: whitesmoke;
+}
+
+.menubar{
+  display: flex;
+  flex-direction: column;
+  color: aliceblue;
+}
+ 
+.rr{
+  padding: 0 0.5rem;
+}
+.cc{
+  padding: 0.5rem 0;
+}
+
+#navl{
+  padding: 8px;
+}
+#navi{
+  padding-right: 1rem;
+}
+
+.heads{
+  text-align: center;
+  
+}
+
+#rr{
+  margin-bottom: 0.5rem ;
+}
+
+.article{
+  padding: 1.5rem;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: monospace;
+  color: slategrey;
+}
+.article >a{
+  text-decoration: none;
+}
+
+#smallpaper{
+  padding: 18px 0;
+
+}
+.menubar >div{
+  padding-top: 2rem;
+  border-bottom: groove white 2px;
+  margin: 0 1rem;
+  padding-bottom: 2rem;
+}
+
+#menu_heads{
+  color: white;
+  
+  font-size: 10px;
+  letter-spacing: 2px;
+
+
+}
+
+.colorcardsbox{
+  display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 1rem;
+}
+
+
+.cbox{
+    border-radius: 1rem;
+    padding: 1rem;
+    margin:0.5rem;
+}
+
+#dropmenus{
+  background-color: lightsteelblue;
+  color: black;
+  border-radius: 1rem;
+}
+
+
+.dashhead{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: blue;
+  border-radius: 3px;
+  padding-left: 18px;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 2px;
+}
+
+.diagra_content{
+  padding: 30px;
+}
+
+
+.smcards{
+
+}
+
+#sc_subheads{
+  display: grid;
+  grid-template-columns: 4fr .5fr;
+  justify-items: stretch;
+  justify-content: space-evenly;
+  align-content: space-evenly;
+  align-items: center;
+  grid-column-gap: 10px;
+  padding-right: 9px;
+}
+
+#slc{
+  padding-left: 10px;
+}
+
+
+
+.r2{
+  margin: 1rem;
+}
+
+.c2{
+  padding: 5px;
+}
+
+
+#heading_paper{
+  margin-bottom: 2px;
+  padding: 6px;
+}
+
+#dash_heading{
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#report_bt{
+  color: white;
+  background-color: blue;
+  padding: 12px;
+    border-radius: 9px;
+
+  
+}
+
+#compbar{
+  display: grid;
+  grid-template-columns:  1fr 3fr;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#lbar{
+  padding: 5px;
+    margin-bottom: 6px;
+}
+
+
+
+.competionhead{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-bottom: 0.5rem;
+}
+
+.compbox{
+  padding: 1rem;
+}
+#cbar{
+  padding: 0px 18px;
+}
+
+#bottom-container{
+  justify-content: space-around;
+}
+
+.r3{
+  margin: inherit;
+}
